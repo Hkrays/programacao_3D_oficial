@@ -3,7 +3,7 @@
 
 :root{
     --cor--de--fundo: #a193f1;
-    --verde: #f721ba; 
+    --verde: #f585d5; 
     --branco: #f8f4f4; 
     --botao-ativo: #e275e6;
     --botao-inativo: rgba(235, 16, 151, 0.5);
@@ -88,6 +88,11 @@ body{
     text-align: center;
     color: var(--verde);
     text-transform: uppercase;
+}
+
+.contador{
+    font-size: 20px;;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
