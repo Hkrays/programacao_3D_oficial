@@ -3,7 +3,7 @@
 
 :root{
     --cor--de--fundo: #a193f1;
-    --verde: #f585d5; 
+    --verde: #f3a5dd; 
     --branco: #f8f4f4; 
     --botao-ativo: #e275e6;
     --botao-inativo: rgba(235, 16, 151, 0.5);
@@ -91,8 +91,26 @@ body{
 }
 
 .contador{
-    font-size: 20px;;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contador-digito{
+    padding: 0 16px;
     text-align: center;
+    min-width: 100px;
+}
+
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+}
+
+.contador-digito-texto{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
